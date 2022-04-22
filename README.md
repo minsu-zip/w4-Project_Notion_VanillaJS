@@ -1,5 +1,3 @@
-## 📌 과제 설명 <!-- 어떤 걸 만들었는지 대략적으로 설명해주세요 -->
-
 ### 노션 클로닝 프로젝트!
 (서버 중단으로 사용 불가)
 배포 주소 https://minsu-zip.github.io/w4-Project_Notion_VanillaJS/
@@ -22,8 +20,6 @@
 6. 해당 document 편집 시, document에 포함된 목록들이 하단에 나타나고 클릭 시, 해당 컴포넌트 edit로 넘어가게 됩니다.
 
 ## 👩‍💻 구현 내용 <!-- 기능을 Commit 별로 잘개 쪼개고, Commit 별로 설명해주세요 -->
-
-### 기본 요구사항
 - [x] 글 단위를 Document라고 합니다. Document는 Document 여러개를 포함할 수 있습니다.
 - [x] 화면 좌측에 Root Documents를 불러오는 API를 통해 루트 Documents를 렌더링합니다.
   - [x] Root Document를 클릭하면 오른쪽 편집기 영역에 해당 Document의 Content를 렌더링합니다.
@@ -33,10 +29,6 @@
 - [x] History API를 이용해 SPA 형태로 만듭니다.
   - [x] 루트 URL 접속 시엔 별다른 편집기 선택이 안 된 상태입니다.
   - [x] /documents/{documentId} 로 접속시, 해당 Document 의 content를 불러와 편집기에 로딩합니다.
-
-### 보너스 요구사항
- - [x] 편집기 최하단에는 현재 편집 중인 Document의 하위 Document 링크를 렌더링하도록 추가합니다.
-
-### 개별 추가사항
+- [x] 편집기 최하단에는 현재 편집 중인 Document의 하위 Document 링크를 렌더링하도록 추가합니다.
 - [x] 각 Document 삭제 기능 추가
   - [x] 삭제 버튼 클릭 시, 해당 Document 삭제 후, Editor 컴포넌트 안보이게 구성
